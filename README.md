@@ -1,33 +1,27 @@
-## 🚀 Origami Framework v1.0
+# Origami Framework
 
-This is the first public release of **Origami Framework** — a universal symbolic reasoning system built for GPT-native AI.
+> A universal symbolic reasoning architecture for GPT-native AI
 
-Origami is based on a transparent logic flow:  
-**Constraint → Pattern → Synthesis**, with every step tagged as:  
-**F: Fact**, **I: Inference**, **P: Interpretation**
+Origami is a constraint-driven, symbolic reasoning framework that enables GPTs to produce transparent, auditable, and deterministic outputs. It enforces a strict logic chain — Constraint → Pattern → Synthesis — and tags each reasoning step as Fact (F), Inference (I), or Interpretation (P).
 
-This v1.0 release includes:
-- 🧠 `ORIGAMI_SPEC.yaml` — Full specification (audit-grade, dual-mode)
-- 🔍 `examples/kryptos-k4.md` — Solving Kryptos K4 with symbolic logic
-- 🛡️ `modules/audit_cert.md` — Constraint integrity verification module
-- 📘 `README.md` — Public framework overview
-- 📄 `LICENSE` — CC BY-ND 4.0 (no derivatives or reuse without permission)
+## Key Features
 
----
+- 🔐 Zero-hallucination symbolic logic
+- ⚙️ Fully GPT-native: no APIs, no plugins
+- 📄 YAML + Markdown audit scaffolding
+- 🔍 Dual modes: Research & Compliance
+- 🧪 Successfully used to solve Kryptos K4
 
-### 🔐 Controlled License
-This version is protected under **Creative Commons BY-ND 4.0**.
-Commercial or developmental use is not permitted without written approval.
+## Core Files
 
-To request usage rights or partnership:
-For usage inquiries or collaboration, open a thread at:
-👉 [GitHub Discussions](https://github.com/TheCee/origami-framework/discussions)
+- `ORIGAMI_SPEC.yaml` – Formal logic specification
+- `examples/kryptos-k4.md` – Historic cryptographic application
+- `modules/audit_cert.md` – Output verification module
 
+## License
 
----
+Released under **CC BY-ND 4.0**  
+Redistribution allowed with attribution. No derivatives or reuse without permission.  
+© 2025 John Cain, Good Honest Tech
 
-### 🔗 External Link
-📂 [Kryptos K4 Case Study](https://github.com/TheCee/origami-kryptos-solution)
-
----
-
+For commercial licensing or partnerships, contact: goodhonesttech@protonmail.com

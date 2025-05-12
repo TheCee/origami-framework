@@ -1,10 +1,18 @@
-
 origami_spec:
   version: 1.0
   title: Origami Framework — Universal Symbolic Reasoning Architecture
-  license: CC BY 4.0
-  description: |
-    Origami is a symbolic control architecture for GPT-native intelligence. It implements a universal
-    constraint-pattern-synthesis logic model (C→P→S), augmented by Fact/Inference/Interpretation tagging (F/I/P).
-    Origami enables deterministic, auditable, and hallucination-free reasoning across all GPT use cases.
-...
+  license: CC BY-ND 4.0
+  core_logic:
+    flow: [Constraint, Pattern, Synthesis]
+    tags: [F: Fact, I: Inference, P: Interpretation]
+  modes:
+    - research:
+        loosened_constraints: true
+        audit_level: partial
+    - compliance:
+        loosened_constraints: false
+        audit_level: full
+  output:
+    format: yaml
+    includes: [constraint_set, reasoning_chain, synthesis, audit_tags]
+  note: This is a minimal public release. For full access, contact the author.
