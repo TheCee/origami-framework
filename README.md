@@ -1,58 +1,33 @@
-# Origami Framework
+## 🚀 Origami Framework v1.0
 
-> A universal symbolic reasoning architecture for GPT-native AI
+This is the first public release of **Origami Framework** — a universal symbolic reasoning system built for GPT-native AI.
 
-Origami is a domain-agnostic logic control system for building symbolic, auditable, and deterministic GPTs. It enables full transparency of reasoning using a constraint → pattern → synthesis model, augmented by Fact/Inference/Interpretation (F/I/P) tagging. Origami is fully deployable in native GPT environments, with no external plugins, APIs, or retrieval dependencies.
+Origami is based on a transparent logic flow:  
+**Constraint → Pattern → Synthesis**, with every step tagged as:  
+**F: Fact**, **I: Inference**, **P: Interpretation**
 
-## 🔍 What Makes Origami Unique?
+This v1.0 release includes:
+- 🧠 `ORIGAMI_SPEC.yaml` — Full specification (audit-grade, dual-mode)
+- 🔍 `examples/kryptos-k4.md` — Solving Kryptos K4 with symbolic logic
+- 🛡️ `modules/audit_cert.md` — Constraint integrity verification module
+- 📘 `README.md` — Public framework overview
+- 📄 `LICENSE` — CC BY-ND 4.0 (no derivatives or reuse without permission)
 
-| Feature                  | Origami Framework          | Others (LangChain, Logic-LM, etc.) |
-|--------------------------|-----------------------------|-------------------------------------|
-| Symbolic logic structure | ✅ Constraint → Pattern → Synthesis | ⚠️ Partial or non-explicit         |
-| F/I/P reasoning tagging  | ✅ Built-in                | ❌ Not available                    |
-| Audit scaffold output    | ✅ YAML/Markdown          | ❌ Rare or unavailable              |
-| Deployment native to GPT| ✅ No plugins or APIs     | ❌ Requires external tooling        |
-| Dual-mode logic          | ✅ Research + Compliance  | ⚠️ Experimental                     |
+---
 
-## 📦 Core Files
+### 🔐 Controlled License
+This version is protected under **Creative Commons BY-ND 4.0**.
+Commercial or developmental use is not permitted without written approval.
 
-- `ORIGAMI_SPEC.yaml` — Full formal specification
-- `ORIGAMI_SPEC.md` — Human-readable spec with commentary
-- `examples/` — Domain-specific demos: law, cryptography, education, and medicine
-- `modules/` — Extensions for certification, generation, and YAML output
+To request usage rights or partnership:
+For usage inquiries or collaboration, open a thread at:
+👉 [GitHub Discussions](https://github.com/TheCee/origami-framework/discussions)
 
-## 🧪 Example: Kryptos K4
 
-Origami was used to produce the first symbolic, GPT-native solution to the Kryptos K4 cipher.
+---
 
-[🔗 Kryptos Solution Repo](https://github.com/TheCee/origami-kryptos-solution)
+### 🔗 External Link
+📂 [Kryptos K4 Case Study](https://github.com/TheCee/origami-kryptos-solution)
 
-## 🔧 Applications
+---
 
-- 🧠 OSINT + Intelligence Processing  
-- ⚖️ Legal Reasoning + Interpretation  
-- 🧬 Clinical Decision Support  
-- 📚 Educational Tutors  
-- 🎨 Creative Writing Assistants  
-- 🛡️ Governance + Risk-Aware Systems
-
-## 🛠️ Extensible Modules
-
-| Module               | Purpose                                 |
-|----------------------|------------------------------------------|
-| `audit_cert.md`      | Certify outputs via logic test scaffolds |
-| `yaml_builder.md`    | Convert reasoning to portable YAML       |
-| `origami_gpt_generator.md` | GPTs that build GPTs, symbolically   |
-
-## 🧾 License
-
-Creative Commons Attribution 4.0  
-© 2025 TheCee
-
-## 📜 Licensing and Use
-
-This framework is released under the **CC BY-ND 4.0 license**:
-- ✅ You may share or cite it with proper attribution
-- ❌ You may not modify, reuse, or integrate it into tools or products without permission
-
-To request commercial or development use, contact **goodhonesttech@protonmail.com**
