@@ -1,0 +1,8 @@
+# Example: Symbolic Diagnosis Framework
+constraint: "Patient reports chest pain"
+pattern: "Match symptoms to cardiovascular conditions"
+synthesis: "Suggest EKG and blood panel"
+tags:
+  - F: "Chest pain recorded"
+  - I: "Possible angina or myocardial infarction"
+  - P: "Refer to cardiologist"

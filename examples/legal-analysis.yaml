@@ -1,0 +1,8 @@
+# Example: Legal Reasoning
+constraint: "State law requires informed consent for medical tests"
+pattern: "Evaluate if procedure was disclosed"
+synthesis: "Violation of consent law"
+tags:
+  - F: "No signed form found"
+  - I: "Likely breach of protocol"
+  - P: "Patient may file grievance"
