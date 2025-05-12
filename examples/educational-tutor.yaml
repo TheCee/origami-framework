@@ -1,8 +1,0 @@
-# Example: Educational Tutor
-constraint: "Student struggles with algebra"
-pattern: "Identify steps in equation solving"
-synthesis: "Scaffold practice questions with hints"
-tags:
-  - F: "Incorrect variable isolation"
-  - I: "Needs step-by-step review"
-  - P: "Assign adaptive practice set"
