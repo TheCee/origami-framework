@@ -47,7 +47,7 @@ Origami was used to produce the first symbolic, GPT-native solution to the Krypt
 ## 🧾 License
 
 Creative Commons Attribution 4.0  
-© 2025 John Cain, Good Honest Tech
+© 2025 TheCee
 
 ## 📜 Licensing and Use
 
