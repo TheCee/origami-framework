@@ -22,7 +22,8 @@ Origami is a constraint-driven, symbolic reasoning framework that enables GPTs t
 
 Released under **CC BY-ND 4.0**  
 Redistribution allowed with attribution. No derivatives or reuse without permission.  
-© 2025 John Cain, Good Honest Tech
+© 2025 TheCee
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15388125.svg)](https://doi.org/10.5281/zenodo.15388125)
 
 For commercial licensing or partnerships. Contact or request permission via [GitHub Discussions](https://github.com/TheCee/origami-framework/discussions)
 
