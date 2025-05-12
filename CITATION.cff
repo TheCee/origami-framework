@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "If you use Origami Framework in your work, please cite it using the metadata below."
 title: "Origami Framework: A Universal Symbolic Reasoning Architecture for GPT-native AI"
 authors:
-  - family-names: Cain
-    given-names: John
-    affiliation: Good Honest Tech
+  - family-names: Cee
+    given-names: The
+    affiliation: Earth
     orcid: "https://orcid.org/0000-0000-0000-0000"  # Placeholder, can be updated
 date-released: 2025-05-12
 version: "1.0.0"
