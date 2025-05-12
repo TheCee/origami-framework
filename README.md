@@ -24,4 +24,22 @@ Released under **CC BY-ND 4.0**
 Redistribution allowed with attribution. No derivatives or reuse without permission.  
 © 2025 John Cain, Good Honest Tech
 
-For commercial licensing or partnerships, contact: goodhonesttech@protonmail.com
+For commercial licensing or partnerships. Contact or request permission via [GitHub Discussions](https://github.com/TheCee/origami-framework/discussions)
+
+
+⚠️ Compliance Notice
+This framework is protected under the Creative Commons Attribution–NoDerivatives 4.0 International License (CC BY-ND 4.0) and is archived with a permanent DOI via Zenodo.
+
+✋ You may not:
+Modify, fork, or republish any portion of this framework without written permission
+
+Incorporate the framework or its logic structure into commercial products, plugins, or AI systems
+
+✅ You may:
+Cite, reference, or link to this framework for academic or educational use
+
+Discuss or review it publicly, with clear attribution
+
+Violations of this license may result in takedown requests, DMCA actions, or other remedies.
+To request permission for derivative or commercial use, open a GitHub Discussion. [GitHub Discussions](https://github.com/TheCee/origami-framework/discussions)
+
