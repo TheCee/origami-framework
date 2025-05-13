@@ -1,0 +1,34 @@
+- step: P1
+  label: "Pattern of 97 characters with suspected nulls"
+  epistemic: Inference
+  confidence: 0.82
+  justification: "Matches known irregularities in Vigenère structure"
+  risk_score: 0.3
+
+- step: P2
+  label: "Positional mirroring and symmetry suggest folding logic"
+  epistemic: Inference
+  confidence: 0.78
+  justification: "Supported by symmetry in sculpture layout"
+  risk_score: 0.35
+
+- step: S1
+  label: "Origami fold model created to simulate cryptographic layering"
+  epistemic: Interpretation
+  confidence: 0.74
+  justification: "Emergent plaintext observed with symbolic folding"
+  risk_score: 0.42
+
+- step: C4
+  label: "Creator statements imply metaphorical concealment"
+  epistemic: Fact
+  confidence: 0.95
+  justification: "Quoted in interviews and official documentation"
+  risk_score: 0.05
+
+- step: S3
+  label: "Symbolic interpretation yields final message"
+  epistemic: Interpretation
+  confidence: 0.70
+  justification: "Final synthesis consistent with creator intent"
+  risk_score: 0.45

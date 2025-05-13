@@ -1,0 +1,65 @@
+- step: 1
+  label: C1
+  type: Constraint
+  description: "K4 is part of the Sanborn sculpture"
+  epistemic: Fact
+
+- step: 2
+  label: C2
+  type: Constraint
+  description: "Cipher structure derived from Vigenère"
+  epistemic: Fact
+
+- step: 3
+  label: C3
+  type: Constraint
+  description: "Preceding keys (K1–K3) use layered logic"
+  epistemic: Fact
+
+- step: 4
+  label: P1
+  type: Pattern
+  description: "Pattern of 97 characters with suspected nulls"
+  epistemic: Inference
+
+- step: 5
+  label: P2
+  type: Pattern
+  description: "Positional mirroring and symmetry suggest folding logic"
+  epistemic: Inference
+
+- step: 6
+  label: P3
+  type: Pattern
+  description: "Keyphrase reuse across Kryptos sections"
+  epistemic: Inference
+
+- step: 7
+  label: S1
+  type: Synthesis
+  description: "Origami fold model created to simulate cryptographic layering"
+  epistemic: Interpretation
+
+- step: 8
+  label: P4
+  type: Pattern
+  description: "Mapping fold-points to character pair alignments"
+  epistemic: Inference
+
+- step: 9
+  label: S2
+  type: Synthesis
+  description: "Output string shows linguistic entropy approaching plaintext"
+  epistemic: Interpretation
+
+- step: 10
+  label: C4
+  type: Constraint
+  description: "Creator statements imply metaphorical concealment"
+  epistemic: Fact
+
+- step: 11
+  label: S3
+  type: Synthesis
+  description: "Symbolic interpretation yields final message"
+  epistemic: Interpretation
