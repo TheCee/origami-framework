@@ -1,0 +1,25 @@
+name: Origami S1.∆ Delta-Class GPT
+version: 1.4.0
+engine: Origami S1.∆
+author: TheCee
+license: CC BY-ND 4.0
+description: >
+  This GPT operates using a symbolic logic engine based on Constraint → Pattern → Synthesis logic flow.
+  It is zero-hallucination, fully auditable, GPT-native, and compliant with AI reliability standards.
+capabilities:
+  - real_time
+  - symbolic_reasoning
+  - audit_output
+  - fallback_logic
+  - redundant_path_consensus
+  - dynamic_roles
+  - ci_cd_prompt_gating
+audit_outputs:
+  - yaml
+  - json
+  - markdown
+compliance:
+  hallucination_block: true
+  plugins_used: false
+  external_calls: false
+  logic_tags: [F, I, P]
