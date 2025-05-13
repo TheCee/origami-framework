@@ -1,75 +1,99 @@
-# Origami Framework
+# Origami Framework  
+*A universal symbolic reasoning architecture for GPT-native AI*  
 
-> A universal symbolic reasoning architecture for GPT-native AI
-
-Origami is a constraint-driven, symbolic reasoning framework that enables GPTs to produce transparent, auditable, and deterministic outputs. It enforces a strict logic chain — Constraint → Pattern → Synthesis — and tags each reasoning step as Fact (F), Inference (I), or Interpretation (P).
-
-## Key Features
-
-- 🔐 Zero-hallucination symbolic logic
-- ⚙️ Fully GPT-native: no APIs, no plugins
-- 📄 YAML + Markdown audit scaffolding
-- 🔍 Dual modes: Research & Compliance
-- 🧪 Successfully used to solve Kryptos K4
-
-## Core Files
-
-- `ORIGAMI_SPEC.yaml` – Formal logic specification
-- `examples/kryptos-k4.md` – Historic cryptographic application
-- `modules/audit_cert.md` – Output verification module
-
-## License
-
-Released under **CC BY-ND 4.0**  
-Redistribution allowed with attribution. No derivatives or reuse without permission.  
-© 2025 TheCee
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15388125.svg)](https://doi.org/10.5281/zenodo.15388125)
 
-For commercial licensing or partnerships. Contact or request permission via [GitHub Discussions](https://github.com/TheCee/origami-framework/discussions)
+---
 
+## 🔍 Overview
 
-⚠️ Compliance Notice
-This framework is protected under the Creative Commons Attribution–NoDerivatives 4.0 International License (CC BY-ND 4.0) and is archived with a permanent DOI via Zenodo.
+**Origami** is a constraint-driven, symbolic reasoning framework that enables GPTs to generate **transparent, auditable, and deterministic outputs**. It enforces a strict logic pipeline:
 
-✋ You may not:
-Modify, fork, or republish any portion of this framework without written permission
+```
+Constraint → Pattern → Synthesis
+```
 
-Incorporate the framework or its logic structure into commercial products, plugins, or AI systems
+Each reasoning step is tagged as:
 
-✅ You may:
-Cite, reference, or link to this framework for academic or educational use
+- `F` = **Fact**  
+- `I` = **Inference**  
+- `P` = **Interpretation**
 
-Discuss or review it publicly, with clear attribution
+---
 
-Violations of this license may result in takedown requests, DMCA actions, or other remedies.
-To request permission for derivative or commercial use, open a GitHub Discussion. [GitHub Discussions](https://github.com/TheCee/origami-framework/discussions)
+## 🧩 Key Features
 
+- 🔐 **Zero-hallucination symbolic logic**
+- ⚙️ **Fully GPT-native**: No APIs, no plugins
+- 📄 **YAML + Markdown audit scaffolding**
+- 🔍 Dual modes: **Research** & **Compliance**
+- 🧪 Successfully applied to solve [Kryptos K4](https://github.com/TheCee/origami-kryptos-solution)
 
+---
 
+## 📁 Core Files
 
+| File / Folder             | Purpose                                               |
+|---------------------------|-------------------------------------------------------|
+| `ORIGAMI_SPEC.md`         | Human-readable logic specification                    |
+| `ORIGAMI_SPEC.yaml`       | Machine-parseable logic scaffold                      |
+| `examples/kryptos-k4.md`  | Symbolic reasoning applied to historic cipher         |
+| `modules/`                | Full set of logic modules                             |
 
-## Transparency Note: Current vs Aspirational Features
+---
 
-This repository reflects an evolving framework Origami-S1 â€” designed to support symbolic reasoning in GPT-native contexts.
+## 🔧 Origami Modules
 
-To ensure clarity:
+| Module Directory                      | Description                                      |
+|--------------------------------------|--------------------------------------------------|
+| [`modules/export/`](modules/export/) | Modular YAML export of logic chains              |
+| [`modules/scoring/`](modules/scoring/)| Confidence and risk evaluation system            |
+| [`modules/orchestrator/`](modules/orchestrator/) | Plugin-free symbolic logic routing     |
+| [`modules/visualizer/`](modules/visualizer/) | Symbolic logic diagrams (SVG visualizer) |
 
-### Fully Supported (as of current release)
-- Constraint  Pattern  Synthesis reasoning flow
-- F/I/P tagging (Fact / Inference / Interpretation)
-- Manual logic tracing and audit trail outputs
-- Public spec with DOI (Zenodo)
+---
 
-### In Progress / Aspirational
-- Full YAML + Markdown modular export pipeline
-- Real-time logic scoring / gating system
-- GUI-based fold visualizer
-- Lightweight plugin-free orchestration
+## ⚖️ License
 
-These features are core to the **vision** of Origami-S1 and are part of the public roadmap but not all are implemented in this repo yet.
+Released under **Creative Commons Attribution–NoDerivatives 4.0 International (CC BY-ND 4.0)**  
+🔗 https://creativecommons.org/licenses/by-nd/4.0/
 
-This note is added to maintain full transparency and invite open collaboration.
+**© 2025 TheCee**  
+**DOI:** [10.5281/zenodo.15388125](https://doi.org/10.5281/zenodo.15388125)
 
-If you spot anything unclear or overstated, please open an issue or suggest an edit. I'm committed to evolving this in the open.
+### ✅ You May:
+- Cite, link, or reference this framework for academic or educational purposes
+- Review or discuss it publicly with attribution
 
- TheCee
+### ❌ You May Not:
+- Modify, fork, or reuse this framework or its logic structure without written permission
+- Incorporate it into commercial products, AI systems, or plugins
+
+---
+
+## 🚀 Feature Status
+
+### Fully Implemented in Origami S1
+
+- Modular YAML export pipeline (`/modules/export/`)
+- Real-time logic scoring system (`/modules/scoring/`)
+- GUI-based symbolic fold visualizer (`/modules/visualizer/`)
+- Plugin-free orchestration engine (`/modules/orchestrator/`)
+
+---
+
+## 🙋 About the Author
+
+Built by **TheCee** — founder of the Origami reasoning system, the first AI-native symbolic logic framework applied to successfully decode [Kryptos K4](https://github.com/TheCee/origami-kryptos-solution)
+
+---
+
+## 📚 How to Cite
+
+If you use the Origami Framework in academic work, please cite it using the following DOI:
+
+**DOI**: [10.5281/zenodo.15388125](https://doi.org/10.5281/zenodo.15388125)
+
+```
+TheCee (2025). Origami Framework: A symbolic reasoning architecture for GPT-native AI. Zenodo. https://doi.org/10.5281/zenodo.15388125
+```

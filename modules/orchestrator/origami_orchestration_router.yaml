@@ -1,0 +1,7 @@
+rules:
+  - condition: "epistemic == 'Fact'"
+    action: "accept"
+  - condition: "epistemic == 'Inference'"
+    action: "evaluate_confidence"
+  - condition: "epistemic == 'Interpretation'"
+    action: "flag_for_user_validation"

@@ -1,0 +1,6 @@
+- step: P1
+  label: "Recognized symbolic pattern"
+  epistemic: Inference
+  confidence: 0.80
+  justification: "Matches multiple examples from symbolic logic corpus"
+  risk_score: 0.20

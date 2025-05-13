@@ -1,0 +1,15 @@
+- step: 1
+  label: C1
+  type: Constraint
+  description: "Initial symbolic constraint"
+  epistemic: Fact
+- step: 2
+  label: P1
+  type: Pattern
+  description: "Recognized symbolic or structural pattern"
+  epistemic: Inference
+- step: 3
+  label: S1
+  type: Synthesis
+  description: "Derived symbolic synthesis or outcome"
+  epistemic: Interpretation
