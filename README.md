@@ -44,3 +44,32 @@ Discuss or review it publicly, with clear attribution
 Violations of this license may result in takedown requests, DMCA actions, or other remedies.
 To request permission for derivative or commercial use, open a GitHub Discussion. [GitHub Discussions](https://github.com/TheCee/origami-framework/discussions)
 
+
+
+
+
+## Transparency Note: Current vs Aspirational Features
+
+This repository reflects an evolving framework Origami-S1 â€” designed to support symbolic reasoning in GPT-native contexts.
+
+To ensure clarity:
+
+### Fully Supported (as of current release)
+- Constraint  Pattern  Synthesis reasoning flow
+- F/I/P tagging (Fact / Inference / Interpretation)
+- Manual logic tracing and audit trail outputs
+- Public spec with DOI (Zenodo)
+
+### In Progress / Aspirational
+- Full YAML + Markdown modular export pipeline
+- Real-time logic scoring / gating system
+- GUI-based fold visualizer
+- Lightweight plugin-free orchestration
+
+These features are core to the **vision** of Origami-S1 and are part of the public roadmap but not all are implemented in this repo yet.
+
+This note is added to maintain full transparency and invite open collaboration.
+
+If you spot anything unclear or overstated, please open an issue or suggest an edit. I'm committed to evolving this in the open.
+
+ TheCee
