@@ -81,6 +81,14 @@ Released under **Creative Commons Attribution–NoDerivatives 4.0 International 
 - Plugin-free orchestration engine (`/modules/orchestrator/`)
 
 ---
+### 🔎 Audit Files
+
+- [Compliance Statement](audit/origami_compliance.md)
+- [GPT Spec Sheet](audit/gptspec.yaml)
+- [Adversarial Test Cases](audit/adversarial_test_matrix.yaml)
+- [Support & Contact](audit/support.md)
+
+
 
 ## 🙋 About the Author
 
